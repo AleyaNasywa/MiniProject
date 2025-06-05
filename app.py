@@ -50,6 +50,7 @@ filtered_data = data[
 
 # Header
 st.title("📱 Social Media Addiction Among Students")
+st.info("👉 Use the filters in the **sidebar** to explore the data by gender, academic level, and relationship status.")
 
 # KPI Cards
 col1, col2, col3, col4 = st.columns(4)
