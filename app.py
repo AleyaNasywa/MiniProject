@@ -214,14 +214,3 @@ st.markdown("""
 - **0.00** = No relationship
 - **–1.00** = One goes up, the other goes down
 """)
-
-# Insights
-st.markdown("---")
-st.subheader("📌 Key Insights")
-with st.expander("Click to view insights"):
-    st.write("- High addiction often links to lower mental health.")
-    st.write("- Students use social media for many hours daily.")
-    st.write("- Sleep hours decrease as usage increases.")
-    st.write("- TikTok & Instagram dominate usage.")
-    st.write("- Certain platforms affect academic performance more.")
-    st.write("- Conflicts over social media may link to higher addiction.")
