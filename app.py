@@ -32,7 +32,7 @@ st.markdown(page_bg_style, unsafe_allow_html=True)
 
 # Sidebar
 with st.sidebar:
-    st.title('📊 Social Media Dashboard')
+    st.title('📊 Social Media Dashboard hehe')
     gender_filter = st.multiselect('Select Gender', options=data['Gender'].unique(), default=data['Gender'].unique())
     academic_filter = st.multiselect('Select Academic Level', options=data['Academic_Level'].unique(), default=data['Academic_Level'].unique())
     relationship_filter = st.multiselect('Select Relationship Status', options=data['Relationship_Status'].unique(), default=data['Relationship_Status'].unique())
